@@ -15,6 +15,7 @@ buttonOn.addEventListener('click',
         
      } else {
         lampOffElement.src = '../img/white_lamp.png';
+        lampOffElement.alt = 'lampadina-spenta';
         buttonOn.textContent = 'Accendi la lampadina!';
      }
     } 
